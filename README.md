@@ -3,37 +3,29 @@
 A simple Hibernate-based Maven project to perform CRUD operations on countries and regions tables using Hibernate Native API and PostgreSQL.
 
 ✅ Features
-Add new Regions and Countries
-
-View all Regions and Countries
-
-Update existing Region/Country
-
-Delete Region and Country
-
-Automatic timestamp recording (createdDate, createdTime)
+1)Add new Regions and Countries
+2)View all Regions and Countries
+3)Update existing Region/Country
+4)Delete Region and Country
+5)Automatic timestamp recording (createdDate, createdTime)
 
 Clean and formatted console output
 
 🧑‍💻 Technologies Used
-Java
-Hibernate	Final
-PostgreSQL	
-Jakarta Persistence	3.1.0
-Maven	Project Manager
-Log4j	For Logging
-Eclipse IDE	for Development
+1)Java
+2)Hibernate Final
+3)PostgreSQL	
+4)Jakarta Persistence	3.1.0
+5)Maven	Project Manager
+6)Log4j	For Logging
+7)Eclipse IDE	for Development
 
 ⚙️ Prerequisites
-JDK 17 or above
-
-PostgreSQL installed and running
-
-A PostgreSQL database named: hibernate_crud
-
-Maven installed
-
-Eclipse or any Java IDE
+*JDK 17 or above
+*PostgreSQL installed and running
+*A PostgreSQL database named: hibernate_crud
+*Maven installed
+*Eclipse or any Java IDE
 
 🗃️ Database Schema
 🔹 regions table
@@ -65,30 +57,26 @@ CountriesRegions_Hibernate/
 │           │   ├── Country.java
 │           │   └── Region.java
 │           └── Main.java
-│
 ├── resources/
-│   ├── hibernate.cfg.xml
-│   └── log4j.properties
-│
+│├── hibernate.cfg.xml
+│└── log4j.properties
 ├── pom.xml
 └── README.md
 
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run?
 
 1. Clone this repository  
 2. Ensure your PostgreSQL database `hibernate_crud` is up and running with the required tables  
 3. Configure your database connection in `hibernate.cfg.xml`  
 4. Use Maven to build the project
-   
-
 5. Run the 'Main.java' class from your IDE or command line  
 
 ---
 
-## 📞 Contact
+## 📞 Contact:
 
 For any queries, please contact:
 
