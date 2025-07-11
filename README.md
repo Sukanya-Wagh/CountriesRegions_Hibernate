@@ -100,3 +100,5 @@ For any queries, please contact:
 *Happy Coding!* 🚀
 
 ## Output Screenshot
+
+<img width="735" height="547" alt="Image" src="https://github.com/user-attachments/assets/6893c818-f369-4310-b904-cd99edc64691" />
