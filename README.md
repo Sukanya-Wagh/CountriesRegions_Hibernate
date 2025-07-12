@@ -4,37 +4,53 @@ A simple Hibernate-based Maven project to perform CRUD operations on countries a
 
 ✅ Features
 1)Add new Regions and Countries
+
 2)View all Regions and Countries
+
 3)Update existing Region/Country
+
 4)Delete Region and Country
+
 5)Automatic timestamp recording (createdDate, createdTime)
 
-Clean and formatted console output
+6)Clean and formatted console output
 
-🧑‍💻 Technologies Used
+##Technologies Used
+
 1)Java
+
 2)Hibernate Final
+
 3)PostgreSQL	
+
 4)Jakarta Persistence	3.1.0
+
 5)Maven	Project Manager
+
 6)Log4j	For Logging
+
 7)Eclipse IDE	for Development
 
 ⚙️ Prerequisites
 *JDK 17 or above
+
 *PostgreSQL installed and running
+
 *A PostgreSQL database named: hibernate_crud
+
 *Maven installed
+
 *Eclipse or any Java IDE
 
 🗃️ Database Schema
-🔹 regions table
+
+1) regions table
 Column Name	Data Type
 region_id	Integer (PK)
 region_name	VARCHAR
 created_at	TIMESTAMP
 
-🔹 countries table
+2) countries table
 Column Name	Data Type
 country_id	VARCHAR (PK)
 country_name	VARCHAR
@@ -43,20 +59,21 @@ created_date	DATE
 created_time	TIME
 
 📂 Project Structure
+
 CountriesRegions_Hibernate/
 │
 ├── src/
 │   └── main/
 │       └── java/
-│           ├── config/
-│           │   └── HibernateUtil.java
-│           ├── dao/
-│           │   ├── CountryDAO.java
-│           │   └── RegionDAO.java
-│           ├── model/
-│           │   ├── Country.java
-│           │   └── Region.java
-│           └── Main.java
+│ ├── config/
+││└── HibernateUtil.java
+│├── dao/
+││├── CountryDAO.java
+││└── RegionDAO.java
+│├── model/
+││├── Country.java
+││└── Region.java
+│└── Main.java
 ├── resources/
 │├── hibernate.cfg.xml
 │└── log4j.properties
