@@ -70,7 +70,7 @@ CountriesRegions_Hibernate/
 │       │   └── Main.java
 │       └── resources/
 │           ├── hibernate.cfg.xml
-│           └── log4j.properties
+│           
 ├── pom.xml
 └── README.md
 
