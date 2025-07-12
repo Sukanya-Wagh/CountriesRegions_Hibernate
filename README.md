@@ -61,25 +61,18 @@ created_time	TIME
 📂 Project Structure
 
 CountriesRegions_Hibernate/
-│
 ├── src/
 │   └── main/
-│       └── java/
-│ ├── config/
-││└── HibernateUtil.java
-│├── dao/
-││├── CountryDAO.java
-││└── RegionDAO.java
-│├── model/
-││├── Country.java
-││└── Region.java
-│└── Main.java
-├── resources/
-│├── hibernate.cfg.xml
-│└── log4j.properties
+│       ├── java/
+│       │   ├── config/
+│       │   ├── dao/
+│       │   ├── model/
+│       │   └── Main.java
+│       └── resources/
+│           ├── hibernate.cfg.xml
+│           └── log4j.properties
 ├── pom.xml
 └── README.md
-
 
 ---
 
