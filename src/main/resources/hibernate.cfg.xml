@@ -21,9 +21,6 @@
        
         <property name="hibernate.cache.use_second_level_cache">false</property>
 
-<property name="hibernate.show_sql">false</property>
-<property name="hibernate.format_sql">false</property>
-        <!-- Drop and re-create the database schema on startup -->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
      
