@@ -59,7 +59,7 @@ created_date	DATE
 created_time	TIME
 
 📂 Project Structure
-
+'''
 CountriesRegions_Hibernate/
 ├── src/
 │   └── main/
@@ -73,7 +73,7 @@ CountriesRegions_Hibernate/
 │           
 ├── pom.xml
 └── README.md
-
+'''
 ---
 
 ## 🚀 How to Run?
