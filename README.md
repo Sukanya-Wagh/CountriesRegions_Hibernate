@@ -32,6 +32,7 @@ A simple Hibernate-based Maven project to perform CRUD operations on countries a
 7)Eclipse IDE	for Development
 
 ⚙️ Prerequisites
+
 *JDK 17 or above
 
 *PostgreSQL installed and running
@@ -59,21 +60,26 @@ created_date	DATE
 created_time	TIME
 
 📂 Project Structure
-'''
-CountriesRegions_Hibernate/
+```
+📂 CountriesRegions_Hibernate/
+├── pom.xml
+├── README.md
 ├── src/
 │   └── main/
 │       ├── java/
 │       │   ├── config/
+│       │   │   └── JPAUtil.java
 │       │   ├── dao/
+│       │   │   ├── CountryDAO.java
+│       │   │   └── RegionDAO.java
 │       │   ├── model/
+│       │   │   ├── Country.java
+│       │   │   └── Region.java
 │       │   └── Main.java
 │       └── resources/
-│           ├── hibernate.cfg.xml
-│           
-├── pom.xml
-└── README.md
-'''
+│           └── hibernate.cfg.xml
+```
+
 ---
 
 ## 🚀 How to Run?
