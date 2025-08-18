@@ -1,4 +1,4 @@
-📘 CountriesRegions_Hibernate
+**📘 CountriesRegions_Hibernate**
 
 A simple Hibernate-based Maven project to perform CRUD operations on countries and regions tables using Hibernate Native API and PostgreSQL.
 
